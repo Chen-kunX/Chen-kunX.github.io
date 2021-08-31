@@ -1,38 +1,55 @@
+header {
+  background:#b7aada;position:fixed;left:0;right:0;width:20%;
+  text-align: center;
+  size: 15px;
+  color: #4522a5;
+}
 html {
-    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
-    font-size: 10px;
-    /* Google fonts 输出的 CSS */
-    font-family: 'Open Sans', sans-serif;
-  }
-h2 {
-    font-size: 300px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #00539F;
-    text-shadow: 6px 3px 1px black;
-  }
-  
-img {
-  display: block;
-  margin: 0 auto;
+  font-size: 15px;
 }
-h2 {
-  font-size: 72px;
+h1 {
+  font-size: 45px;
+  color: #b3b0bd;
+  text-shadow: 10px 15px 15px black ;
+  background:#9c8bcc;position:fixed;left:0;right:0;height:8%; width:20%;
 }
-p, li {
-    font-size: 16px;
-    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-  html {
-    background-color: #00539F;
-  }
 body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+  background-color: #ffffff;
+    border: 0px solid black;
+}
+ti{
+  margin:0 auto;text-align:center;
+  width: 50%;
+} 
+.sidebar{
+	width:175px;
+	border-color: blue;
+  position: fixed;left: 0;right: 0;width: 20%;
+}
+.tab{
+	font-size:12px;
+	height:27px;
+	width:175px;
+	background: #eeeeee;
+	line-height: 27px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+	border-radius:2px 2px 0px 0px;
+}
+
+.navto-nav{
+	font-size:12px;
+	height:45px;
+	width:175px;
+	background: #fbfbfb;
+	line-height: 45px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+}
+
+
+article {
+  background-color: rgb(49, 197, 197);position:fixed;left:30%;right:0;width:40%;
+}
